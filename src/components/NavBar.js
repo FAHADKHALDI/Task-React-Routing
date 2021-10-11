@@ -11,9 +11,6 @@ function NavBar() {
       </Link>
       <Link to="/">Home</Link>
       <Link to="/productlist">Product List</Link>
-      <Link to="/detail" className="button">
-        Details
-      </Link>
     </header>
   );
 }
