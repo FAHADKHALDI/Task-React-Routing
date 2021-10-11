@@ -19,21 +19,26 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  text-decoration: none;
 }
 
 .productWrapper {
   margin: 20px;
+  text-decoration: none;
 }
 .productWrapper img {
   width: 200px;
   height: 200px;
+  text-decoration: none;
 }
 .productWrapper p {
   text-align: center;
+  text-decoration: none;
 }
 
 .detail {
   text-align: center;
+  text-decoration: none;
 }
 
 .detail img {
@@ -71,4 +76,13 @@ header a {
 
 header a:hover {
   background-color: white;
+}
+
+header img {
+  position: relative;
+  margin-right: 720px;
+  height: 50px;
+  justify-content: left;
+
+  margin-bottom: 20px;
 }
